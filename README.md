@@ -13,3 +13,6 @@ Multi-Modal Fusion models
 - Extract Wav2Vec embeddings, MFCC features and split dataset using 80% training, 10% validation and 10% test using CS229_project/audio
 /audio_main.py
 - Process padded MFCC sequences using LSTM model CS229_project/audio/audio_train.py
+
+To dowload directly extracted Audio features, Video features and its corresponding labels :
+https://drive.google.com/drive/folders/1gOPUzGyHsepW1n7Q7mPDdxJ5hqfcBLG1?usp=sharing

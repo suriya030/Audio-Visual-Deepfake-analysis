@@ -2,18 +2,18 @@
 
 ## Feature Extraction
 
-**Audio Features:**  
-Run `CS229_project/data_preprocessing_audio/audio_processing.py` followed by `CS229_project/models/baseline_audio.py`.
-
 **SWIN Features:**  
 Execute `CS229_project/data_preprocessing_video/extract_swin_features.ipynb`.  
 Download the Video-Swin Transformer weights from [Kaggle](https://www.kaggle.com/models/kaggle/video-swin-transformer) or use the extracted features from [Google Drive](https://drive.google.com/drive/folders/1gOPUzGyHsepW1n7Q7mPDdxJ5hqfcBLG1?usp=sharing).
 
 **WAV2VEC2 / MFCC Features:**  
-Run `CS229_project/audio/audio_main.py`. or use the extracted features from [Google Drive](https://drive.google.com/drive/folders/1gOPUzGyHsepW1n7Q7mPDdxJ5hqfcBLG1?usp=sharing).
+Run `CS229_project/audio/audio_main.py` to extract Wav2Vec embeddings and MFCC features or use the extracted features from [Google Drive](https://drive.google.com/drive/folders/1gOPUzGyHsepW1n7Q7mPDdxJ5hqfcBLG1?usp=sharing).
 
 
 ## Training and Inference
+
+**Audio Baseline:**  
+Run `CS229_project/data_preprocessing_audio/audio_processing.py` to extract MFCC, Zero Crossing Rate, Chroma features followed by `CS229_project/models/baseline_audio.py` to train and run inference.
 
 **Video Baseline:**  
 Run `CS229_project/models/video_baseline.ipynb` to train and run inference (ensure SWIN features are extracted beforehand).

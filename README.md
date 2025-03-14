@@ -7,7 +7,8 @@ Baseline models
     /audio_processing.py, followed by CS229_project/models/baseline_audio.py
 
 - Video features
-  - To run the baseline models for video features, run 
+  - To run the baseline models for video features, run CS229_project/data_preprocessing_video
+    /extract_swin_features.ipynb
 
 Multi-Modal Fusion models
 - Extract Wav2Vec embeddings, MFCC features and split dataset using 80% training, 10% validation and 10% test using CS229_project/audio

@@ -8,7 +8,8 @@ Baseline models
 
 - Video features
   - To run the baseline models for video features, run CS229_project/data_preprocessing_video
-    /extract_swin_features.ipynb
+    /extract_swin_features.ipynb. Video-Swin Transformer weights can be downloaded from here
+    https://www.kaggle.com/models/kaggle/video-swin-transformer
 
 Multi-Modal Fusion models
 - Extract Wav2Vec embeddings, MFCC features and split dataset using 80% training, 10% validation and 10% test using CS229_project/audio

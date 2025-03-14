@@ -10,7 +10,8 @@ Execute `CS229_project/data_preprocessing_video/extract_swin_features.ipynb`.
 Download the Video-Swin Transformer weights from [Kaggle](https://www.kaggle.com/models/kaggle/video-swin-transformer) or use the extracted features from [Google Drive](https://drive.google.com/drive/folders/1gOPUzGyHsepW1n7Q7mPDdxJ5hqfcBLG1?usp=sharing).
 
 **WAV2VEC2 / MFCC Features:**  
-Run `CS229_project/audio/audio_main.py`.
+Run `CS229_project/audio/audio_main.py`. or use the extracted features from [Google Drive](https://drive.google.com/drive/folders/1gOPUzGyHsepW1n7Q7mPDdxJ5hqfcBLG1?usp=sharing).
+
 
 ## Training and Inference
 

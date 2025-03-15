@@ -16,7 +16,7 @@ Run `CS229_project/audio/audio_main.py` to extract Wav2Vec embeddings and MFCC f
 Run `CS229_project/data_preprocessing_audio/audio_processing.py` to extract MFCC, Zero Crossing Rate, Chroma features followed by `CS229_project/models/baseline_audio.py` to train and run inference.
 
 **Video Baseline:**  
-Run `CS229_project/models/video_baseline.ipynb` to train and run inference (ensure SWIN features are extracted beforehand).
+Run `CS229_project/models/baselinemodel_video.ipynb` to train and run inference (ensure SWIN features are extracted beforehand).
 
 **Audio-Visual Model:**  
 Run `CS229_project/models/AVbaseline.ipynb` to train and run inference (ensure both SWIN features and WAV2VEC2/MFCC features are extracted beforehand).

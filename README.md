@@ -1,5 +1,7 @@
 # CS229 Project: Fake or Real? Audio-Visual Deepfake Detection
 
+For details, Here is the [REPORT](https://drive.google.com/file/d/1Xa_185_c-Pz8MhV0K1k-iFc4f6RXQjCz/view?usp=drive_link)
+
 ## Feature Extraction
 
 **SWIN Features:**  

@@ -24,7 +24,8 @@ Run `CS229_project/models/AVbaseline.ipynb` to train and run inference (ensure b
 Additional processing includes extracting Wav2Vec embeddings, MFCC features, and splitting the dataset (80% training, 10% validation, 10% test) using `CS229_project/audio/audio_main.py`, as well as processing padded MFCC sequences with the LSTM model to process audio sequence and output prediction by running `CS229_project/audio/audio_train.py`.
 
 **Multi-modal Contrastive Learning Model**  
-Root directory for the project is 'CS229/Multimodal_Contrastive_learning'
-To pretrain the model, run pretrain.py
-To evaluate the model, run evaluate.py
+Root directory for the project is 'CS229/Multimodal_Contrastive_learning'.
+To pretrain the model, run pretrain.py.
+To evaluate the model, run evaluate.py.
+
 Reference:Modification folder from SpeechForensics project

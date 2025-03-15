@@ -18,7 +18,9 @@ Run `CS229_project/data_preprocessing_audio/audio_processing.py` to extract MFCC
 **Video Baseline:**  
 Run `CS229_project/models/baselinemodel_video.ipynb` to train and run inference (ensure SWIN features are extracted beforehand).
 
-**Audio-Visual Model:**  
+**Multi-modal Fusion Model:**  
 Run `CS229_project/models/AVbaseline.ipynb` to train and run inference (ensure both SWIN features and WAV2VEC2/MFCC features are extracted beforehand).
 
 Additional processing includes extracting Wav2Vec embeddings, MFCC features, and splitting the dataset (80% training, 10% validation, 10% test) using `CS229_project/audio/audio_main.py`, as well as processing padded MFCC sequences with the LSTM model to process audio sequence and output prediction by running `CS229_project/audio/audio_train.py`.
+
+**Multi-modal Contrastive Learning Model:**  
